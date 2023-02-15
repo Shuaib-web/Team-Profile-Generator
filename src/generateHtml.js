@@ -8,7 +8,7 @@ const managerCard = function (manager) {
 };
 
 const internCard = function (intern) {
-    return `<div class="card">
+  return `<div class="card">
     <h1>Intern</h1>
     <h3>Name: ${intern.name}</h3>
     <h3>Email: ${intern.email}</h3>
@@ -17,7 +17,7 @@ const internCard = function (intern) {
 };
 
 const engineerCard = function (engineer) {
-    return `<div class="card">
+  return `<div class="card">
     <h1>Engineer</h1>
     <h3>Name: ${engineer.name}</h3>
     <h3>Email: ${engineer.email}</h3>
@@ -58,10 +58,18 @@ const main = function (employeeCards) {
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
         <title>Team</title>
     </head>
     <body>
-        ${employeeCards}
+    <header class="header">
+    <h1>
+        Team Profile
+    </h1>
+</header>
+    <main class="content">
+    ${employeeCards}
+    </main>    
     </body>
     </html>`;
 };
