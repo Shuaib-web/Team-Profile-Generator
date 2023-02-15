@@ -6,3 +6,4 @@ Because this application won’t be deployed, you’ll need to provide a link to
 
 ![screencapture-127-0-0-1-5500-dist-index-html-2023-02-15-21_41_32](https://user-images.githubusercontent.com/72218203/219175219-0fdcb5cb-aca6-4b63-b6cd-b040c5d0992d.png)
 
+https://github.com/Shuaib-web/Team-Profile-Generator 
